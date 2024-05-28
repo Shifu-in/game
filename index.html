@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Tap Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <img src="loading.gif" alt="Loading...">
+    </div>
+    <div id="main-screen" style="display: none;">
+        <div id="tap-area">Tap Here</div>
+        <div id="stats">Coins: 0</div>
+        <button id="partners-btn">Partners</button>
+    </div>
+    <div id="partners-screen" style="display: none;">
+        <div class="partner">
+            <span>Channel 1</span>
+            <button class="subscribe-btn">Subscribe</button>
+        </div>
+        <div class="partner">
+            <span>Channel 2</span>
+            <button class="subscribe-btn">Subscribe</button>
+        </div>
+        <button id="back-btn">Back</button>
+        <button id="copy-referral-btn">Copy Referral Link</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
